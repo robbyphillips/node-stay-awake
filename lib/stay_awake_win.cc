@@ -37,6 +37,6 @@ namespace stay_awake {
 		NODE_SET_METHOD(exports, "getState", GetState);
 	}
 
-	NODE_MODULE(stay-awake, init)
+	NODE_MODULE(stay_awake, init)
 
 }
