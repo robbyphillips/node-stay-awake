@@ -1,0 +1,28 @@
+{
+  "name": "stay-awake",
+  "version": "0.0.1",
+  "description": "Prevents computer from going into automatic sleep",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node-gyp configure build",
+    "preuninstall": "rm -rf ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aamaadmi/node-stay-awake.git"
+  },
+  "keywords": [
+    "sleep",
+    "awake"
+  ],
+  "author": "Ashwini Dhekane <ashwini@teewe.in> (https://github.com/ashwinikd)",
+  "license": "GNU GENERAL PUBLIC LICENSE Version 2",
+  "bugs": {
+    "url": "https://github.com/aamaadmi/node-stay-awake/issues"
+  },
+  "homepage": "https://github.com/aamaadmi/node-stay-awake",
+  "dependencies": {
+    "process": "^0.11.2"
+  }
+}
