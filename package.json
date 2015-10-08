@@ -1,6 +1,6 @@
 {
   "name": "stay-awake",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prevents computer from going into automatic sleep",
   "main": "index.js",
   "scripts": {
