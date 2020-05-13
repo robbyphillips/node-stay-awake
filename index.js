@@ -7,7 +7,7 @@ if (/^win/.test(platform)) {
 } else if (/^darwin/.test(platform)) {
     module.exports = require('./lib/mac');
 } else {
-    console.warn('Platform ' + platform + ' is not supported.');
+    console.warn('Platform ' + platform + ' is not supported by `node-stay-awake`.');
     module.exports = {
         prevent: () => {},
         allow: () => {}
