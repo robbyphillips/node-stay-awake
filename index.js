@@ -8,4 +8,8 @@ if (/^win/.test(platform)) {
     module.exports = require('./lib/mac');
 } else {
     console.warn('Platform ' + platform + ' is not supported.');
+    module.exports = {
+        prevent: () => {},
+        allow: () => {}
+    }
 }
