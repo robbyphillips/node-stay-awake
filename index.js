@@ -7,5 +7,5 @@ if (/^win/.test(platform)) {
 } else if (/^darwin/.test(platform)) {
     module.exports = require('./lib/mac');
 } else {
-    throw new Error('Platform ' + platform + ' is not supported.');
+    console.warn('Platform ' + platform + ' is not supported.');
 }
